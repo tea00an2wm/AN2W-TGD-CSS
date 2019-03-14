@@ -1,11 +1,11 @@
 #main .menu-wrapper,
 #main #main-content > div.frame {
-    border: 2px solid #6441a5;
+    border: 2px solid #6E8ACF;
     border-radius: 15px;
 }
 
 #main .menu-wrapper::before {
-    background: linear-gradient(135deg, #6441a5 24px, transparent 0), linear-gradient(225deg, #6441a5 24px, transparent 0);
+    background: linear-gradient(135deg, #6E8ACF 24px, transparent 0), linear-gradient(225deg, #6E8ACF 24px, transparent 0);
     background-repeat: repeat-x;
     background-size: 12px 33px;
     border-radius: 13px 13px 0 0;
@@ -43,7 +43,7 @@
     padding-top: 25px;
 }
 #main #main-content:before {
-    background: linear-gradient(135deg, #6441a5 24px, transparent 0), linear-gradient(225deg, #6441a5 24px, transparent 0);
+    background: linear-gradient(135deg, #6E8ACF 24px, transparent 0), linear-gradient(225deg, #6E8ACF 24px, transparent 0);
     background-repeat: repeat-x;
     background-size: 12px 33px;
     border-radius: 13px 13px 0 0;
@@ -55,4 +55,14 @@
     width: calc(100% - 15px);
     height: calc(100%);
     pointer-events: none;
+}
+
+body {
+
+    height: auto !important;
+
+    background: #FFE2E6 ;    /* 배경색 코드 입력 */
+
+        /* ex) background: #ffffff; */
+
 }
