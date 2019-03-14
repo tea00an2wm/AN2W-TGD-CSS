@@ -104,4 +104,6 @@ header #header-bar #header-top-notice {
     border-bottom: 20px solid #FFE2E6;
 }
 /*페이지*/
-div#article-list .pagination li a{color: black;background: #FFFFFF;border-color:#6E8ACF;}
+.pagination>li>a, .pagination>li>span {
+    color: #6E8ACF;
+}
