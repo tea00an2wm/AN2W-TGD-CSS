@@ -104,4 +104,8 @@ header #header-bar #header-top-notice {
     border-bottom: 20px solid #FFE2E6;
 }
 /*페이지*/
-div#article-list .pagination li a:focus, .pagination li span:focus, div#article-list .pagination li a:hover, .pagination li span:hover, div#article-list .pagination .active a{background:#6E8ACF;}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #6E8ACF;
+    border-color: #6E8ACF;
+        color: #FFE2E6;
+      }
