@@ -124,11 +124,3 @@ border-top: 0px solid #F99192;
     padding-bottom: 2px; /*즐찾소개채널클립 크기*/
     border-bottom: 3px solid #6E8ACF; /*가운데선*/
 }
-
-/*폰트크기 같음..?*/
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    font-family: inherit;
-    /* font-weight: 500;<<<아뉴_이거 클씨크기 없앤게 더 굵음 */
-    line-height: 1.1;
-    color: inherit;
-}
