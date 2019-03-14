@@ -1,0 +1,145 @@
+#main .menu-wrapper,
+#main #main-content > div.frame {
+    border: 2px solid #6E8ACF;
+    border-radius: 15px;
+}
+/*logo*/
+header .row>div:nth-child(1)>a {
+
+    display: block;
+
+    width: 200px;
+
+    height: 50px;
+
+    background: url(https://i.imgur.com/25h95xw.png) no-repeat; /* url(로고 경로 입력) */
+
+    background-size: auto 50px;
+
+}
+header .row > div:nth-child(1) > a img {
+    opacity: 0;
+}
+header .row>div:nth-child(1)>a:after{
+    position: absolute;
+    left: 145px;
+        /* ex) left: 160px; */
+    top: 5px;
+    background-image: url(https://i.imgur.com/pNDdLpa.png); /* 들어갈 이미지 경로 */
+    background-size: 40px 40px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    content: "";
+}
+#main .menu-wrapper::before {
+    background: linear-gradient(135deg, #6E8ACF 24px, transparent 0), linear-gradient(225deg, #6E8ACF 24px, transparent 0);
+    background-repeat: repeat-x;
+    background-size: 12px 33px;
+    border-radius: 13px 13px 0 0;
+    position: absolute;
+    color: white;
+    padding: 0.4em 1em 0 1em;
+    text-align: center;
+    font-weight: bold;
+    left: 0px;
+    width: calc(100%);
+    height: 34px;
+}
+
+#main .menu-wrapper:nth-child(1)::before {
+    content: "트게더 메뉴";
+}
+
+#main .menu-wrapper:nth-child(2)::before {
+    content: "유용한 링크";
+}
+
+#main .menu-wrapper:nth-child(3)::before {
+    content: "트위치 스케줄";
+}
+
+#main .menu-wrapper a:nth-last-child(1) {
+    border-radius: 0px 0px 15px 15px;
+}
+
+#main .menu-wrapper > .header {
+    background: white;
+    border-radius: 12px 12px 0 0;
+}
+
+#main #main-content > div.frame {
+    padding-top: 25px;
+}
+#main #main-content:before {
+    background: linear-gradient(135deg, #6E8ACF 24px, transparent 0), linear-gradient(225deg, #6E8ACF 24px, transparent 0);
+    background-repeat: repeat-x;
+    background-size: 12px 33px;
+    border-radius: 13px 13px 0 0;
+    position: absolute;
+    content: " ";
+    left: 0px;
+    margin-left: 15px;
+    margin-top: 2px;
+    width: calc(100% - 15px);
+    height: calc(100%);
+    pointer-events: none;
+}
+body {
+
+    height: auto !important;
+
+    background: #FFE2E6 ;    /* 배경색 코드 입력 */
+
+        /* ex) background: #ffffff; */
+
+}
+/* 검색창 */
+
+header #right-search-form>input[type=text] {
+
+    border: 3px solid #6E8ACF; /* 검색창 테두리 색 */
+
+    border-radius: 15px;
+
+}
+
+/*[광고]랑 최근/즐겨찾기/임미 바] */
+header #header-bar > .row {
+    background: #fff;
+    border-bottom: 20px solid #FFE2E6;
+    border: 2px solid #6E8ACF;
+    border-radius: 15px;
+    padding-top: 0.3em;
+padding-bottom: 0.3em;
+}
+header #header-bar #header-top-notice {
+    font-size: 0.9em;
+}
+}
+/*카테고리 위 투명 바 색] */
+#article-list #article-list-category { border-color: (#6E8ACF)!important; }
+/* []트게더] 로고 부분 +아래공간만듬 */
+.col-xs-4 {
+    width: 33.33333333%;
+    border-bottom: 20px solid #FFE2E6;
+}
+/*페이지*/
+div #article-list .pagination>li>a, .pagination>li>span {
+    color: black;background: #FFFFFF;border-color:#6E8ACF;
+}
+/* 메인 배너 스트리머 닉네임 색 변경 */
+
+#board-info h1>a {
+
+    color: #f17374;
+
+}
+
+/* 글 작성자 닉네임 색 변경 */
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+
+    color: ##f17374;
+
+}
